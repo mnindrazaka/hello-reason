@@ -12,6 +12,7 @@
       "in-source": true
     }
   ],
+  "bs-dependencies": ["bs-bastet", "relude"],
   "suffix": ".bs.js",
   "namespace": true,
   "refmt": 3
