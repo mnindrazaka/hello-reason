@@ -1,0 +1,18 @@
+{
+  "name": "reason-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'npm run start:re' 'npm run start:js' ",
+    "start:js": "nodemon src/index.bs.js",
+    "start:re": "bsb -make-world -w",
+    "build": "bsb -make-world"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^9.0.2"
+  }
+}
